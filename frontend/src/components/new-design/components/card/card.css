@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+}
+
+h5 {
+  /* font-family: Clash Display; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10.8px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  /*padding-bottom: 392px;*/
+  color: #A3A3A3;
+}
+
+.mentor_tag {
+  width: 42px;
+  /* Hug width */
+  height: 13px;
+  /* Hug height */
+  background: radial-gradient(circle at center, #FFF6A5 0%, #FFD43B 100%);
+  border-radius: 14px;
+  /* Radius */
+  padding: 4px 8px;
+  /* Padding: 4px top, 8px right, 4px bottom, 8px left */
+  gap: 10px;
+  /* Gap (typically used in flex or grid containers) */
+  margin-top: -22px;
+  margin-left: 142px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mentor_tag span {
+  /* width: 26px;
+  height: 5px; */
+
+  font-family: 'General Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 5.4px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+}
+
+.card_box {
+  /* height: 250px;
+  width: 217px; */
+  
+  height: 264px;
+  width: 215px;
+  /* padding: 2.5px 0px 0px 0px; */
+  /* padding: 4px; */
+  border-width: 1px;
+  border-color: #EBEBEB;
+  border-style: solid;
+  /* margin: 4px; */
+}
+
+.card_box img {
+  /* width: 134px; */
+  /* height: 110px; */
+  width: 94%;
+  height: 65%;
+  object-fit: cover;
+  margin: 3%;
+  /* display: flex; */
+}
+
+.name_text {
+  width: 134px;
+  height: 48px;
+  padding: 0 0 10px 10px;
+  ;
+  /* background-color: red; */
+  margin-top: 12px;
+  /* justify: space-between; */
+  /* padding: 0 0 0 6px; */
+
+}
+
+
+.name_text h2 {
+  /* font-size: 12px;
+  font-weight: 800;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 10px; */
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 19.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-bottom: 16px;
+  width: 158px;
+  height: 24px;
+
+  font-family: 'Clash Display', sans-serif;
+  overflow: hidden;
+
+}
+
+.purpose_text {
+  margin-top: 7px;
+}
+
+.purpose {
+  /* width: 67px; 
+  height: 7px;  */
+  font-family: 'Clash Display', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 7.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  /* padding-left: 6px; */
+  color: #757575;
+}
+
+.ramaining_time {
+  font-family: General Sans;
+  font-size: 6px;
+  font-weight: 600;
+  line-height: 5.4px;
+  /* letter-spacing: -0.01em; */
+  text-align: left;
+  /* padding-left: 6px; */
+  color: #FD9800;
+}
+
+
+/*extra css */
+
+.card-container {
+  height: 264px;
+  width: 216px;
+  perspective: 1000px;
+  /* margin: 10px; */
+  position: relative;
+  display: 0 0 auto;
+}
+
+.card {
+  position: absolute;
+  backface-visibility: hidden;
+    /* height: 276px; */
+    height: 264px;
+    width: 217px;
+    /* padding: 2.5px 0px 0px 0px; */
+}
+
+.front {
+  background-color: #fff;
+}
+
+.back {
+  /* background-color: #f0f0f0; */
+  transform: rotateY(180deg);
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .blink {
+  animation: blink 4s infinite;
+
+} */

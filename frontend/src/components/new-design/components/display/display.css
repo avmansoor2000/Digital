@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  
+}
+
+.greet_box h1 {
+  font-size: 62px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-bottom: 32px;
+  font-family: "Instrument Serif", serif;
+  /* width: 207px; 
+  height: 36px;  */
+  gap: 0px; 
+  border-top: 0.2px solid transparent; 
+}
+
+
+.greet_box h2{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-bottom: 25px;
+
+  /* width: 158px;  */
+  height: 24px; 
+
+  font-family: 'Clash Display', sans-serif;
+}
+
+/* h3{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding: 0 0 10px 6px;
+  font-family: 'Clash Display', sans-serif;
+
+} */
+
+/* .custom-element {
+  width: 10px;
+  height: 10px;
+  gap: 0px;
+  border-radius: 50%;
+  background: #19CE85;
+} */
+
+.greet_box h5 {
+  font-family: 'Clash Display', sans-serif; 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 10.8px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 38px;
+  /*padding-bottom: 392px;*/
+  color: #A3A3A3;
+}
+
+.TV_fixed {
+  width: 1950px;
+  height: 1090px;
+  display: flex;
+  /* background-color: red; */
+  /* background-color: red; */
+  /* background-color: red; */
+  /* position: absolute;  */
+  /* top: 100px;  */
+  /* left: 332px;  */
+  /* padding: 6px; */
+  
+}
+.right_div{
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  margin: 32px 24px 32px 24px;
+
+}
+
+.right_div_inside {
+  /* margin: 32px 24px 32px 24px; */
+  padding: 25px;
+  width: 246px;
+  height: 720px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* opacity: 0px; */
+}
+
+.greet_box{
+  width: 246px; /* Fixed width */
+  height: 150px; /* Hug height */
+  gap: 16px; /* Gap */
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.right_div_inside1 {
+  /* width: 198px;
+  height: 131px; */
+  width: 235px;
+  height: 165px;
+  /* Hug height */
+  gap: 16px;
+  /* Gap between elements */
+  /* background-color: green; */
+}
+
+.right_div_inside1 p {
+  padding-top: 16px;
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.6px;
+  font-family: 'Clash Display', sans-serif;
+  /* letter-spacing: -0.01em; */
+  text-align: left;
+  color: #575757;
+}
+
+.right_div_inside1 span {
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 9.6px;
+  /* letter-spacing: -0.1em; */
+  text-align: left;
+}
+
+.scan_box {
+  width: 236px;
+  height: 131px;
+  border-radius: 11px;
+  display: flex;
+  border-width: 0.6px;
+  border-color: #DEDEDE;
+  border-style: solid;
+  margin-top: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scan_box img {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+  /* padding: 16px 16px 16px 16px; */
+}
+
+.scan_box1 {
+  width: 80px;
+  height: 100px;
+}
+
+
+.scan_box1 p {
+  font-family: 'Clash Display', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding: 16px 0 7px 0;
+  color: #000000;
+}
+
+.scan_box1 h2{
+  width: 77px;
+  height: 42px;
+  font-family: 'Clash Display', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.12px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.card_container {
+  /* width: 1022px; */
+  /* height: 708px; */
+  /* top: 6px; */
+  left: 252px;
+  /* gap: 0px; */
+  flex: 1;
+  flex-direction: column;
+  /* background-color: red; */
+  padding: 16px;
+
+  
+}
+
+.card_row {
+  width: 100%;
+  /* height: 99%; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dot {
+  display: inline-block;
+  background: #19CE85;
+  width: 13px;
+  height: 13px;
+  margin-right: 5px; /* Adjust the spacing as needed */
+  opacity: 1; /* Set to 1 for full opacity */
+  border-radius: 50%; /* To make it a circle */
+}

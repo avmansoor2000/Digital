@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.lottie_plane {
+    position: absolute;
+    margin-right: 140px;
+    margin-top: 50px;
+}
+
+/* .lottie_left { */
+    /* position: absolute; */
+    /* margin-left: 60px; */
+    /* background-color: black; */
+    /* right: 0; */
+/* } */
